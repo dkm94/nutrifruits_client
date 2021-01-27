@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
 
 .filter {
-  width: 60%;
+  width: 90%;
   height: fit-content;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+  text-align: end;
 }
 
 .filter .sort {

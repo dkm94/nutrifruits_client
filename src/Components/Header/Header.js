@@ -7,22 +7,11 @@ class Header extends React.Component {
     return (
       <>
         <div className="header">
-          <div className="grid-row">
-            <p className="welcome">
-              <span>W</span>
-              <span>E</span>
-              <span>L</span>
-              <span>C</span>
-              <span>O</span>
-              <span>M</span>
-              <span>E</span>
-            </p>
-          </div>
-          
+      
           <div className="grid-row logo-row">
-            <div className="squareOne"></div>
+            {/* <div className="squareOne"></div> */}
             <img alt="logo-nutrifruts" src={logo} />
-            <div className="squareTwo"></div>
+            {/* <div className="squareTwo"></div> */}
           </div>
           
           <div className="grid-row info-row">

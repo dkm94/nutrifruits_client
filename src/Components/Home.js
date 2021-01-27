@@ -6,6 +6,7 @@ import Join from "./Join/Join";
 import Chat from "./Chat";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router-dom";
+// import data from "../data/data.json"
 
 class Home extends Component {
   constructor() {
@@ -17,7 +18,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    fetch("../data.json")
+    fetch("../data/data.js")
       .then((res) => res.json())
       .then((data) => {
         this.setState({ fruits: data });
@@ -38,7 +39,7 @@ class Home extends Component {
           <img
             alt="chat"
             onClick={this.displayChat}
-            classname="imgChat"
+            className="imgChat"
             src={require("../img/gifpomme.gif")}
           />
         </div>
