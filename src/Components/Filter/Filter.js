@@ -1,5 +1,6 @@
 import React from "react";
-import Cards from "../Card/Cards";
+// import Cards from "../Card/Cards";
+import Cards from "../Card/Cards2";
 import sort from "../../img/iconsFilter.png";
 import SearchBar from "../SearchBar/SearchBar";
 

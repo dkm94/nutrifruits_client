@@ -14,24 +14,24 @@
   margin-top: 5em; */
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, 12rem);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-column-gap: var(--spacing-l);
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
-  width: 90%;
+  width: 100%;
   margin-top: 5em;
+  /* padding: 0px 5%; */
 }
 
 .card-grid .card {
-  height: 17em;
+  height: 100%;
   background: white;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 5px;
   box-shadow: 0;
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s;
-  border: 5px solid #e5e5e5;
 }
 .card-grid .card:hover {
   transform: scale(1.05) translateZ(0);
@@ -149,10 +149,10 @@
   }*/
 }
 @media screen and (min-width: 380px) and (max-width: 1100px) {
-  /* .card-grid {
+  .card-grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .card-grid .card {
     height: 20em;
-  } */
+  }
 }

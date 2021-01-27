@@ -38,7 +38,7 @@ class Home extends Component {
           <img
             alt="chat"
             onClick={this.displayChat}
-            classname="imgChat"
+            className="imgChat"
             src={require("../img/gifpomme.gif")}
           />
         </div>

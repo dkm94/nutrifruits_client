@@ -20,7 +20,7 @@
     "id": 1,
     "family": "Musaceae",
     "order": "Zingiberales",
-    "img": "https://www.jaimefruitsetlegumes.ca/wp-content/uploads/2019/08/iStock_000007671231Large-e1565725651658-700x700.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Banana.png/489px-Banana.png",
     "nutritions": {
       "carbohydrates": 22,
       "protein": 1,
@@ -35,7 +35,7 @@
     "id": 52,
     "family": "Rosaceae",
     "order": "Rosales",
-    "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27400021/27400021-d6ffb0.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2/Blueberry-PNG-Picture.png",
 
     "nutritions": {
       "carbohydrates": 5.5,
@@ -51,7 +51,7 @@
     "id": 9,
     "family": "Rosaceae",
     "order": "None",
-    "img": "https://fotomelia.com/wp-content/uploads/edd/2015/02/cerise.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Cherry-PNG-Clipart.png",
 
     "nutritions": {
       "carbohydrates": 12,
@@ -67,7 +67,7 @@
     "id": 26,
     "family": "Rutaceae",
     "order": "Sapindales",
-    "img": "https://www.mandorleto.bio/44-large_default/organic-fresh-lemon.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Lemon-PNG-Pic.png",
 
     "nutritions": {
       "carbohydrates": 9,
@@ -83,7 +83,7 @@
     "id": 27,
     "family": "Anacardiaceae",
     "order": "Sapindales",
-    "img": "https://www.aromemarket.com/558-large_default/10-ml-arome-mangue-fa-mango-flavor-costarica-special.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Mango-PNG-HD.png",
 
     "nutritions": {
       "carbohydrates": 15,
@@ -99,7 +99,7 @@
     "id": 2,
     "family": "Rutaceae",
     "order": "Sapindales",
-    "img": "https://1001perles.com/wp-content/uploads/2016/06/orange-web-1024x768.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Orange-PNG-Image.png",
 
     "nutritions": {
       "carbohydrates": 8.3,
@@ -115,7 +115,7 @@
     "id": 4,
     "family": "Rosaceae",
     "order": "Rosales",
-    "img": "https://i5.walmartimages.ca/images/Enlarge/799/2_r/6000196087992_R.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Pear-PNG-Image.png",
 
     "nutritions": {
       "carbohydrates": 15,
@@ -131,7 +131,7 @@
     "id": 10,
     "family": "Bromeliaceae",
     "order": "Poales",
-    "img": "https://www.carrefour.fr/media/1500x1500/Photosite/PRODUITS_FRAIS_TRANSFORMATION/FRUITS_ET_LEGUMES/3000001033257_PHOTOSITE_20150616_083145_0.jpg?placeholder=1",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Pineapple-PNG-Clipart.png",
 
     "nutritions": {
       "carbohydrates": 13.12,
@@ -147,7 +147,7 @@
     "id": 23,
     "family": "Rosaceae",
     "order": "Rosales",
-    "img": "https://cdn.shopify.com/s/files/1/2971/2126/products/Raspberry_ed3f1df5-030e-4999-ab05-732f0c679196_2000x.jpg?v=1594159460",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Raspberry-PNG-Pic.png",
 
     "nutritions": {
       "carbohydrates": 12,
@@ -163,7 +163,7 @@
     "id": 3,
     "family": "Rosaceae",
     "order": "Rosales",
-    "img": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000x2000fit/7/5/6/108756_strawberry.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Strawberry-High-Quality-PNG.png",
 
     "nutritions": {
       "carbohydrates": 5.5,
@@ -179,7 +179,7 @@
     "id": 5,
     "family": "Solanaceae",
     "order": "Solanales",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/81avkS31xRL._SL1500_.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Tomato-Free-PNG-Image.png",
 
     "nutritions": {
       "carbohydrates": 3.9,
@@ -195,7 +195,7 @@
     "id": 25,
     "family": "Cucurbitaceae",
     "order": "Cucurbitales",
-    "img": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/24172315/ING-watermelon.jpg",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Watermelon-Free-PNG-Image.png",
 
     "nutritions": {
       "carbohydrates": 8,
@@ -220,7 +220,7 @@
   {
     "name": "Avocado",
     "id": 31,
-    "img": "https://freepngimg.com/thumb/avocado/1-2-avocado-png-clipart.png",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/05/Avocado-PNG-HD.png",
     "nutritions": {
       "carbohydrates": 3.13,
       "protein": 1.8,
@@ -232,7 +232,7 @@
   {
     "name": "Blackberries",
     "id": 32,
-    "img": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c136.png",
+    "img": "http://www.pngall.com/wp-content/uploads/2016/04/Blackberry-Fruit-PNG-Image.png",
     "nutritions": {
       "carbohydrates": 10,
       "protein": 1.8,
@@ -314,21 +314,9 @@
     }
   },
   {
-    "name": "Kumquat",
-    "id": 39,
-    "img": "https://www.alexetalex.com/wp-content/uploads/2019/08/92252414_s.jpg",
-    "nutritions": {
-      "carbohydrates": 16,
-      "protein": 1.9,
-      "fat": 0.9,
-      "calories": 71,
-      "sugar": 9.4
-    }
-  },
-  {
     "name": "Lime",
     "id": 40,
-    "img": "https://www.asianmarket.fr/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/i/citron-vert-frais-1-piece_1.jpg",
+    "img": "http://collectionpng.com/images/10752.png",
     "nutritions": {
       "carbohydrates": 11,
       "protein": 0.7,
@@ -352,7 +340,7 @@
   {
     "name": "Olive",
     "id": 42,
-    "img": "https://sardofoods.ca/wp-content/uploads/2018/10/pitted_green_olives-square.png",
+    "img": "http://www.pngall.com/wp-content/uploads/4/Olive-PNG-Free-Download.png",
     "nutritions": {
       "carbohydrates": 6.3,
       "protein": 0.8,

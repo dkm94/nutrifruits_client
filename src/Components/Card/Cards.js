@@ -3,7 +3,7 @@ import "../Card/cards.css";
 
 const Cards = ({ fruits, value }) => {
   return (
-    <div className="card-grid">
+    <div className="card-grid container">
       {fruits
         .filter((fruit) => {
           return fruit.name.toLowerCase().indexOf(value.toLowerCase()) >= 0;
