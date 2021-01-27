@@ -1,6 +1,7 @@
 import React from "react";
 import Cards from "../Card/Cards2";
 import SearchBar from "../SearchBar/SearchBar";
+import data from "../../data.js";
 
 import "../Filter/filter.css";
 
@@ -13,19 +14,8 @@ class Filter extends React.Component {
     };
   }
 
-  componentDidMount() {
-    fetch("../data.json")
-      .then((res) => res.json())
-      .then((data) => {
-        this.setState({ fruits: data });
-      })
-      .then((sort) => {
-        sort = this.state.fruits;
-        sort = sort.sort((a, b) => (a.name > b.name) ? 1 : -1)
-      })
-      .catch((err) => {
-        this.setState({ errorMessage: err.message });
-      });
+  componentDidMount(){
+    this.setState({ fruits: data })
   }
 
   inputValue = (e) => {
@@ -79,8 +69,7 @@ class Filter extends React.Component {
           onChange={this.inputValue}
           // value={this.state.value}
         />
-
-        <Cards fruits={this.state.fruits} value={this.state.value} />
+          <Cards fruits={this.state.fruits} value={this.state.value}/>
       </>
     );
   }

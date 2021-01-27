@@ -7,10 +7,10 @@ class Footer extends React.Component {
     super(props);
     this.state = {
       members: [
-        { name: "Diane", github: "https://github.com/dkm94" },
-        { name: "Sarah", github: "https://github.com/sarahnuran" },
-        { name: "Mandel", github: "https://github.com/Mandel-AG" },
-        { name: "Pierre-Alain", github: "https://github.com/Pierre-Alain8" },
+        { id: 1, name: "Diane", github: "https://github.com/dkm94" },
+        { id: 2, name: "Sarah", github: "https://github.com/sarahnuran" },
+        { id: 3, name: "Mandel", github: "https://github.com/Mandel-AG" },
+        { id: 4, name: "Pierre-Alain", github: "https://github.com/Pierre-Alain8" },
       ],
     };
   }
@@ -18,7 +18,7 @@ class Footer extends React.Component {
   render() {
     const members = this.state.members.map((member) => {
       return (
-        <li className="link-list">
+        <li className="link-list" key={member.id}>
           <a href={member.github}>
             <i className="fab fa-github" aria-hidden="true"></i>
             <span> -{member.name}</span>

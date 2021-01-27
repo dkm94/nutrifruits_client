@@ -3,6 +3,7 @@ import "../Card/cards2.css";
 import "../Card/cards.css";
 
 const Cards = ({ fruits, value }) => {
+    // const fruits = fruits.map((fruit) => console.log(fruit.name))
     return (
         <div className="card-grid">
             {fruits
@@ -11,11 +12,14 @@ const Cards = ({ fruits, value }) => {
         })
         .map((fruit) => (
             <section className="product card" key={fruit.id}>
+               
                 <div className="product__photo">
 		            
                     <div className="photo-container">
 			            <div className="photo-main">
-				            <img src={fruit.img} alt="fruits"/>
+                            {console.log(fruit.img)}
+				            <img src={require("../../img/Fruits_png/"+ fruit.img)} alt="fruits"/>
+                            
 			            </div>
 			            
 		            </div>
