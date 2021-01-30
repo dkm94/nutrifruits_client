@@ -17,7 +17,6 @@ const Cards = ({ fruits, value }) => {
 		            
                     <div className="photo-container">
 			            <div className="photo-main">
-                            {console.log(fruit.img)}
 				            <img src={require("../../img/Fruits_png/"+ fruit.img)} alt="fruits"/>
                             
 			            </div>

@@ -23,7 +23,6 @@ class Home extends Component {
       .then((data) => {
         this.setState({ fruits: data });
       })
-      .catch(console.log);
   }
 
   displayChat = () => {
