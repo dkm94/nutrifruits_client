@@ -50,6 +50,7 @@ body {
 	width: 3em;
 	height: 3em;
 	z-index: 1;
+	display: none;
 }
 
 /* .buttonChat img{
