@@ -5,7 +5,6 @@ import "./Join.css";
 const Join = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("Nutrifruit");
-  console.log(setRoom)
   return (
     <div className="joinOuterContainer">
       <div className="JoinInnerContainer">
