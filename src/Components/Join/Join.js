@@ -16,14 +16,14 @@ const Join = () => {
             onChange={(event) => setName(event.target.value)}
           />
         {/* <div> <input placeholder="Room" className='joinInput mt-20' type='text' onChange={ (event)=> setRoom(event.target.value)} /></div> */}
-        <Link
+        {/* <Link
           onClick={(event) => (!name || !room ? event.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}
         >
           <button className="button mt-20" type="submit">
             Sign In
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
