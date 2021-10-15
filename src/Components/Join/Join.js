@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link, withRouter } from "react-router-dom";
+import React from "react";
+import { withRouter } from "react-router-dom";
 import "./Join.css";
 
 const Join = () => {
-  const [name, setName] = useState("");
+  // const [name, setName] = useState("");
   // const [room, setRoom] = useState("Nutrifruit");
   return (
     <div className="joinOuterContainer">
@@ -13,7 +13,7 @@ const Join = () => {
             placeholder="Name"
             className="joinInput"
             type="text"
-            onChange={(event) => setName(event.target.value)}
+            // onChange={(event) => setName(event.target.value)}
           />
         {/* <div> <input placeholder="Room" className='joinInput mt-20' type='text' onChange={ (event)=> setRoom(event.target.value)} /></div> */}
         {/* <Link
